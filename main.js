@@ -43,7 +43,7 @@ btn_change_background_color.addEventListener("click",()=>{
 
 let btn_add_img =document.getElementById("btn-6")
 
-btn_change_background_color.addEventListener("click",()=>{
-    text.style.backgroundImage="url("/lab2-event/the-legend-of-zelda-breath-of-the-wild-switch-switch-jogo-nintendo-eshop-europe-cover.jpg)"
+btn_add_img.addEventListener("click",()=>{
+    document.body.style.backgroundImage="url(/lab2-event/the-legend-of-zelda-breath-of-the-wild-switch-switch-jogo-nintendo-eshop-europe-cover.jpg)"
 })
 
